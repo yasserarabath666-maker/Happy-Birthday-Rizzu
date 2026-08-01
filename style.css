@@ -727,3 +727,16 @@ main.content {
     display:block;
     margin:0 auto 10px;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
